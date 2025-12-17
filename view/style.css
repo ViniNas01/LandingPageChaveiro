@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/** Configuração Padrão da Página*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    color: white;
+    background-color: #81ADC3;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+/** Configuração padrão dos elementos de texto da Página*/
+
+h1{
+    font-size: 38px;
+    font-weight: 900; /* Black*/
+    line-height: 38px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 700; /* Bold*/
+    line-height: 38px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;/* Regular*/
+    line-height: 24px;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+span {
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 38px;
+}
+
+/** Configuração dos Botões da Página*/
+button {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background-color: #223592;
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+
+
+
