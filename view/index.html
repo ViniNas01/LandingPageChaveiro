@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Landing Page Chaveiro</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../view/style.css">
+    <script src="../controller/script.js" defer></script>
 </head>
 <body>
     <header>
@@ -13,6 +14,7 @@
             <div class="container flex">
                 <span id="logo">Logotipo</span>
                 <nav>
+                    <button class="close-menu" id="closeMenu">✕</button>
                     <ul>
                         <li class="links"><a href="#" class="link">link</a></li>
                         <li class="links"><a href="#" class="link">link</a></li>
@@ -22,6 +24,9 @@
                         <button>Let's Work</button>
                     </div>
                 </nav>
+                <button class="hamburger" id="hamburger">
+                    ☰
+                </button>
             </div>
         </div>
     </header>
