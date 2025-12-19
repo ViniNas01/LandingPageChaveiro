@@ -32,21 +32,24 @@ a {
 
 /** Configuração padrão dos elementos de texto da Página*/
 
-h1{
+h1 {
     font-size: 38px;
-    font-weight: 900; /* Black*/
+    font-weight: 900;
+    /* Black*/
     line-height: 38px;
 }
 
 h2 {
     font-size: 30px;
-    font-weight: 700; /* Bold*/
+    font-weight: 700;
+    /* Bold*/
     line-height: 38px;
 }
 
 p {
     font-size: 16px;
-    font-weight: 400;/* Regular*/
+    font-weight: 400;
+    /* Regular*/
     line-height: 24px;
 }
 
@@ -76,12 +79,24 @@ button {
 }
 
 .hamburger {
-  display: none;
-  font-size: 1.8rem;
-  background: none;
-  border: none;
-  color: #fff;
-  cursor: pointer;
+    display: none;
+    font-size: 1.8rem;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.close-menu {
+    display: none;
+    align-self: flex-end;
+    padding: 8px 12px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    margin-bottom: 15px;
 }
 
 /** ---------------------------------------------------------------------------- */
@@ -106,7 +121,7 @@ button {
     height: 100%;
 }
 
-.navbar nav{
+.navbar nav {
     display: flex;
     gap: 40px;
     align-items: center;
@@ -147,23 +162,11 @@ button {
     }
 
     .close-menu {
-        align-self: flex-end;
-        padding: 8px 12px;
-        background: none;
-        border: none;
-        color: white;
-        font-size: 24px;
-        cursor: pointer;
-        margin-bottom: 15px;
+        display: block;
+
     }
 
     .close-menu:hover {
         opacity: 0.7;
     }
 }
-
-
-
-
-
-
