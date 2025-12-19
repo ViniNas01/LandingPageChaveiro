@@ -109,6 +109,8 @@ button {
     overflow: hidden;
 }
 
+
+/** HEADER */
 .navbar {
     height: 80px;
     padding: 0 24px;
@@ -131,6 +133,106 @@ button {
     display: flex;
     gap: 9px;
 }
+
+/** HERO*/
+
+.hero {
+    height: calc(100vh - 80px);
+    padding: 0 24px;
+}
+
+.hero .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.heroText {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 50%;
+    text-transform: uppercase;
+}
+
+.heroText h2 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.heroText button {
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.heroImage {
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.heroImage img {
+    height: 300px;
+    width: 400px;
+}
+
+.imageDescription {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.imageDescription p {
+    background-color: #81ADC3;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 8px 12px;
+    border-radius: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /** Responsividade da Pagina*/
 
