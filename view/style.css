@@ -218,7 +218,7 @@ button {
 
 .cards {
     display: flex;
-    justify-content: space-around       ;
+    justify-content: space-around;
 }
 
 .benefitsCards {
@@ -272,11 +272,49 @@ button {
     line-height: 18px;
 }
 
+/** OUR SERVICES*/
 
+.services {
+    text-align: center;
+    margin: 40px 0;
+    text-transform: uppercase;
+}
 
+.content {
+    display: flex;
+    justify-content: space-around;
+    padding: 24px 8px;
+}
 
+.blockText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
 
+}
 
+.blockText p {
+    font-size: 16px;
+    line-height: 24px;
+    width: 300px;
+    text-align: justify;
+}
+
+.extraContent{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    width: 500px;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: solid 2px #223592;
+    align-items: center;
+    padding-bottom: 5px;
+}
 
 
 
