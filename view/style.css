@@ -358,6 +358,21 @@ button {
     border-radius: 8px; 
 }
 
+.contact {
+    text-align: center;
+}
+
+.contact .flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin: 40px 0;
+}
+
+.contact p {
+    max-width: 500px;
+}
 
 
 
