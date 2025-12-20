@@ -358,6 +358,8 @@ button {
     border-radius: 8px; 
 }
 
+
+/** CONTACT*/
 .contact {
     text-align: center;
 }
@@ -374,38 +376,24 @@ button {
     max-width: 500px;
 }
 
+/** FOOTER */
+.footer {
+    height: 80px;
+    padding: 0 24px;
+}
 
+.footer .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.footer nav ul{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
 
 /** Responsividade da Pagina*/
 
